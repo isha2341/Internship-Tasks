@@ -1,0 +1,66 @@
+input[type='submit'] {
+  background-color: dodgerblue;
+  color: white;
+}
+/* .container {
+  display: flex;
+} */
+#employeeForm,
+#studentForm {
+  padding: 10px;
+  border-style: solid;
+  background: white;
+  max-width: 700px;
+  margin: auto;
+}
+/* label {
+display: block;
+width: 100%;
+} */
+input[type='reset'] {
+  background-color: red;
+  color: white;
+}
+
+input[type='submit'],
+input[type='reset'],
+input[type='text'],
+input[type='number'],
+input[type='tel'],
+input[type='email'],
+textarea,
+select {
+  width: 98%;
+}
+
+input[type='submit'],
+input[type='reset'],
+input[type='text'],
+input[type='number'],
+input[type='tel'],
+input[type='email'],
+select,
+textarea {
+  border: 0;
+}
+
+input,
+select,
+textarea {
+  font-size: medium;
+  padding: 5px;
+  margin: 5px 0;
+}
+
+textarea {
+  font-size: large;
+}
+
+input[type='text'],
+input[type='number'],
+input[type='tel'],
+input[type='email'],
+textarea,
+select {
+  background-color: lightgray;
+}

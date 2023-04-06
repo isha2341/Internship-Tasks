@@ -1,0 +1,39 @@
+#customMenu,
+#subMenu {
+  position: fixed;
+  display: inline;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  background: #f0e6e6;
+  border-radius: 5px;
+  transform: scale(1);
+  transform-origin: top left;
+  opacity: 0.9;
+}
+hr {
+  margin: 0;
+  padding: 0;
+}
+#subMenu {
+  width: 114%;
+  left: 100%;
+}
+#customMenu #item,
+#submenu #item {
+  font-size: 20px;
+  color: #000;
+}
+#arrowIcon {
+  float: right;
+}
+#customMenu #item:hover {
+  background: #bfbbbb;
+}
+ul {
+  margin: 0;
+  padding: 2px;
+  width: 100%;
+}
+li {
+  margin: 0;
+  padding: 2px;
+}

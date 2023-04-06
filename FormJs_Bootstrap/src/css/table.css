@@ -1,0 +1,46 @@
+th,
+td {
+  border: 1px solid black;
+  background-color: white;
+  text-align: center;
+  padding: 3px;
+  word-wrap: break-word;
+  height: auto;
+}
+
+table {
+  width: 100%;
+  margin: auto;
+  overflow-x: auto;
+  border-collapse: collapse;
+  font-size: large;
+  white-space: nowrap;
+  display: none;
+}
+
+p {
+  margin-top: 30px;
+  font-size: large;
+  color: white;
+}
+
+#tableDiv {
+  margin: auto;
+  padding: 0 15px;
+}
+
+#update,
+#delete {
+  color: white;
+  border: 0;
+  border-radius: 10px;
+  margin: 2px;
+}
+
+#update {
+  background-color: dodgerblue;
+}
+
+#delete {
+  background-color: red;
+}

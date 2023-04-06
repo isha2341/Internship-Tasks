@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./src/styles.css" />
+    <title>Document</title>
+    <script src="./src/main.js" type="module" defer></script>
+  </head>
+  <body>
+    <div id="formDisplay" >
+      <p>Add Employee</p>
+        <form  id="myForm" >
+          <div class="row">
+            <div class="col1"><label>Name: </label></div>
+            <div class="col2"><input id="name" type="text" placeholder="Enter Name" pattern="[A-Za-z0-9]{4,20}"required /></div>
+          </div>
+          <div class="row">
+            <div class="col1"><label>Gender: </label></div>
+            <div class="col2" id="gender">
+              <input type="radio" id="male" value="Male" name="gender" required checked/>
+              <label for="male">Male</label>
+              <input type="radio" id="female" value="Female" name="gender" /><label for="female">Female</label>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col1"><label>Date of Birth: </label></div>
+            <div class="col2"><input type="date" id="dob" required /></div>
+          </div>
+          <div class="row">
+            <div class="col1"><label>Email: </label></div>
+            <div class="col2"><input type="email" id="email" placeholder="Enter Email" required /></div>
+          </div>
+          <div class="row">
+            <div class="col1"><label>Phone: </label></div>
+            <div class="col2"><input type="tel" id="phoneNo" pattern="[0-9]{10}" placeholder="Enter phone" /></div>
+          </div>
+          <div class="row">
+            <div class="col1"><label >Hobbies: </label></div>
+            <div class="col2">
+              <input type="checkbox" name="hobby" id="dance" value="Dancing" />
+              <label for="dance">Dancing</label>
+              <input type="checkbox" name="hobby" id="sing" value="Singing" />
+              <label for="sing">Singing</label>
+              <input type="checkbox" name="hobby" id="travel" value="Traveling" />
+              <label for="travel">Traveling</label>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col1"></div>
+            <div class="col2"><button type="submit" id="sbmit" value="submit">Submit</button>
+              <button type="reset" id="rst" value="reset">Reset</button></div>
+          </div>
+        </form>
+      </table>
+    </div>
+    <div id="conDisplay">
+      <p>Display</p>
+      <table id="table" >
+        <tr>
+          <th>Name</th>
+          <th>Gender</th>
+          <th>DOB</th>
+          <th>Email</th>
+          <th>Phone</th>
+          <th>Hobbies</th>
+          <th>Edit</th>
+          <th>Delete</th>
+        </tr>
+      </table>
+    </div>
+  </body>
+</html>

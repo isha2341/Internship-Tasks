@@ -1,0 +1,13 @@
+/* Including one css file into other */
+@import 'form.css';
+@import 'table.css';
+h1 {
+  color: white;
+  text-align: center;
+}
+body {
+  /* background-image: linear-gradient(to right, rgb(66, 186, 255), rgb(252, 117, 252)); */
+  /* background-repeat: no-repeat; */
+  background-color: blueviolet;
+  background-size: contain;
+}
